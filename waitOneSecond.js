@@ -1,4 +1,4 @@
-const waitOneSecond = (randNum, callback) => {
+const waitOneSecond = (callback) => {
   setTimeout(() => {
     callback(null, 'waited one second!');
   }, 1000)
